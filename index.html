@@ -31,16 +31,13 @@
       <div id="navContent" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a href="#" class="nav-link waves-effect">Home</a>
+            <a href="index.html" class="nav-link waves-effect">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Blog</a>
+            <a href="post-page.html" class="nav-link waves-effect">Posts</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Contacts</a>
+            <a href="contact-page.html" class="nav-link waves-effect">Contacts</a>
           </li>
         </ul>
         <ul class="navbar-nav nav-flex-icons">
@@ -79,7 +76,7 @@
       </div>
     </section>
     <hr class="my-5">
-    <section class="wow fadeInLeft">
+    <section class="wow fadeIn">
       <h2 class="h1 text-center my-5 font-weight-bold">
         Lorem ipsum dolor.
       </h2>
@@ -258,7 +255,7 @@
     </section>
   </div>
 </main>
-<footer class="page-footer text-center font-small mdb-color darken-2 nt-4 wow fadeInDown">
+<footer class="page-footer text-center font-small mdb-color darken-2 nt-4 wow fadeIn">
   <div class="pt-4">
     <a href="#" class="btn btn-outline-white">Lorem <i class="fa fa-download"></i></a>
     <a href="#" class="btn btn-outline-white">Lorem ipsum <i class="fa fa-graduation-cap"></i></a>
@@ -283,7 +280,9 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script>
-    new WOW().init();
+    $( document ).ready(function() {
+      new WOW().init();
+    });
   </script>
 
 </body>

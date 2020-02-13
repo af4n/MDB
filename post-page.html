@@ -31,16 +31,13 @@
       <div id="navContent" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a href="#" class="nav-link waves-effect">Home</a>
+            <a href="index.html" class="nav-link waves-effect">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Blog</a>
+            <a href="post-page.html" class="nav-link waves-effect">Posts</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Contacts</a>
+            <a href="contact-page.html" class="nav-link waves-effect">Contacts</a>
           </li>
         </ul>
         <ul class="navbar-nav nav-flex-icons">
@@ -72,7 +69,7 @@
           <div class="card mb-4 wow fadeIn">
             <img class="img-fluid" src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
           </div>
-          <div class="card mb-4 wow fadeInRight">
+          <div class="card mb-4 wow fadeIn">
             <div class="card-body">
               <p class="h5 my-4">Lorem ipsum dolor sit amet.</p>
               <blockquote class="blockquote">
@@ -87,7 +84,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, ipsa, culpa! Tempore adipisci impedit minima saepe, eum. Voluptates quas atque qui nisi, incidunt ratione, voluptas enim officia nulla veritatis expedita!</p>
             </div>
           </div>
-          <div class="card md-4 wow fadeInUp">
+          <div class="card md-4 wow fadeIn">
             <div class="card-header font-weight-bold">
               <span>About autor</span>
               <span class="pull-right">
@@ -289,7 +286,9 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script>
-    new WOW().init();
+    $( document ).ready(function() {
+      new WOW().init();
+    });
   </script>
 
 </body>
